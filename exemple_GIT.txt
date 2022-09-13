@@ -1,7 +1,7 @@
 git init initialise un dépot local git 
 git status 
 git add <fichier> ou .(tout)
-git commit -m <message explicatif> (git commit __amend -m <message>)
+git commit -m <message explicatif> (git commit --camend -m <message>)
 git push [-u <alias url> <branche>]
 git log, git show
 git reset --hard --soft <commit>

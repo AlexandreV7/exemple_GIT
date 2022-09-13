@@ -1,0 +1,18 @@
+git init initialise un dépot local git 
+git status 
+git add <fichier> ou .(tout)
+git commit -m <message explicatif> (git commit __amend -m <message>)
+git push [-u <alias url> <branche>]
+git log, git show
+git reset --hard --soft <commit>
+git tag -a <version> -f -m <messsage> <commit>
+git remote -version
+git remote add <aliasURL> <URL> (ex: git remote add origin https://github.com//)
+branch <branche>
+git checkout -b <branche> permet de creer une nouvelle branche et de se positionner dessus
+1) git fetch <alias>/<branche> 2) git merge FETCH_HEAD
+git pull <alias> <branche>
+en local dans la branche de reception des modificatios : git merge <branche>
+supprimer un fichier de l'historique des fichiers suivis de GIT : git rm --cached <fichier>
+git ls - files affiche la liste des fichiers suivi par git
+git clone <URL du dépot> [<nom du dossier ou cloner>]
